@@ -261,7 +261,6 @@ export default function InlineManager( Base ) {
 			lines.height = 0;
 
 			const INTERLINE = this.getInterLine();
-			console.warn(INTERLINE);
 
 			this.childrenInlines.reduce( ( lastInlineOffset, inlineComponent ) => {
 
